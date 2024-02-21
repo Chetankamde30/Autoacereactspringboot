@@ -18,7 +18,7 @@ export default function RequestService()
     e.preventDefault();
     emailjs
       .sendForm('service_id', 'template_id', form.current, {
-        publicKey: 'qRyTEuQIDiT8_XYdY',
+        publicKey: '',
       })
       .then(
         () => {
