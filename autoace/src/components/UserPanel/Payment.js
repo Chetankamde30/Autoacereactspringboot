@@ -65,7 +65,7 @@ export default function Payment()
                 //open payment form
                 console.log("Chetan Kamde");
                 let options={
-                    key:'rzp_test_02CYBjXhusaXHU',
+                    key:'',
                     amount:response.data.amount,
                     currency:'INR',
                     name:'AutoAce',
