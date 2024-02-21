@@ -8,8 +8,8 @@ const RoomPage=()=>
 
     const myMeeting = async (element)=>{
         const appId=
-        32750832;
-        const serverSecret="37a71f88f2ab06f73540c20d7d90699a";
+        ;
+        const serverSecret="";
         const kitToken=ZegoUIKitPrebuilt.generateKitTokenForTest(appId,serverSecret,roomId,Date.now().toString(),"Chetan Kamde");
         const zc=ZegoUIKitPrebuilt.create(kitToken);
         zc.joinRoom({
